@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap');
+:root{
+  --choco:#2A1A13; --cream:#FFF6E6; --yellow:#FFC72C; --orange:#F2771F;
+  --red:#D7261E; --green:#4FAE3B; --mint:#E2F2D8; --blue:#1F5BE6;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1350px;overflow:hidden}
+body.story,body.story html{height:1920px}
+body{font-family:'DM Sans',sans-serif;position:relative;-webkit-font-smoothing:antialiased}
+.display{font-family:'Archivo Black',sans-serif;letter-spacing:-.02em;line-height:.9}
+.logo{width:128px;height:128px;border-radius:32px;background:url(../assets/logo.jpg) center/122% no-repeat;box-shadow:0 10px 30px rgba(0,0,0,.18)}
+.eyebrow{font-weight:700;font-size:22px;letter-spacing:.22em;text-transform:uppercase}
+.pill{display:inline-block;padding:14px 28px;border-radius:999px;font-weight:700;font-size:26px}
+.photo{background-repeat:no-repeat;overflow:hidden}
